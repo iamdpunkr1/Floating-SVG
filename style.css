@@ -1,0 +1,123 @@
+body {
+    background: rgb(10, 25, 47);
+  }
+  
+  .leftUp { 
+    position: absolute; 
+    top: 20%;
+    left: 10%;
+  }
+
+  .leftUpMiddle { 
+    position: absolute; 
+    top: 10%;
+    left: 25%;
+  }
+  
+  .centerUp { 
+    position: absolute; 
+    top: 40%;
+    left: 50%;
+ 
+
+  }
+
+  .rightUpMiddle {
+    position: absolute; 
+    top: 15%; 
+    right: 30%; 
+  }
+  
+  .rightUp {
+    position: absolute; 
+    top: 35%; 
+    right: 15%; 
+  }
+
+  .leftDown { 
+    position: absolute; 
+    bottom: -290%; 
+    left: 15%;
+  }
+
+  .leftDownMiddle { 
+    position: absolute; 
+    bottom: -250%; 
+    left: 30%;
+  }
+  
+  .centerDown { 
+    position: absolute; 
+    bottom: -290%; 
+    left: 40%;
+ 
+
+  }
+
+  .rightDownMiddle {
+    position: absolute; 
+    bottom: -280%; 
+    right: 35%; 
+  }
+  
+  .rightDown {
+    position: absolute; 
+    bottom: -290%; 
+    right: 20%; 
+  }
+
+  .floatNew {
+    -webkit-animation-name: FloatingNew;
+      -webkit-animation-duration: 4s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+  }
+  
+  @-webkit-keyframes FloatingNew{
+      from {-webkit-transform:translate(0, 0px);}
+      70% {-webkit-transform:translate(0px, 110px);}
+      to {-webkit-transform: translate(0, -0px);    }    
+  }
+  
+  .float {
+    -webkit-animation-name: Floating;
+      -webkit-animation-duration: 5s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+  }
+  
+  @-webkit-keyframes Floating{
+      from {-webkit-transform:translate(0, 0px);}
+      65% {-webkit-transform:translate(0px, 100px);}
+      to {-webkit-transform: translate(0, -0px);    }    
+  }
+
+  .floatUpside {
+    -webkit-animation-name: FloatingUpside;
+      -webkit-animation-duration: 6s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+  }
+  
+  @-webkit-keyframes FloatingUpside{
+      from {-webkit-transform:translate(0, 0px);}
+      65% {-webkit-transform:translate(0px, 50px);}
+      to {-webkit-transform: translate(0, -0px);    }    
+  }
+  
+  
+  .spin {
+    -webkit-animation-name: Spinning;
+      -webkit-animation-duration: 12s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+  }
+  
+  @-webkit-keyframes Spinning{
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    } 
+  }
